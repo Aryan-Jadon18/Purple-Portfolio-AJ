@@ -11,12 +11,8 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">+91 6265735822</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
+          <LinkItem href="aj0320@srmist.edu.in">
             jadonaryansingh@gmail.com
           </LinkItem>
         </LinkColumn>

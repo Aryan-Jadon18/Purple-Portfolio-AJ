@@ -1,12 +1,8 @@
 import React from 'react';
-import { DiCss3, DiFirebase, DiHtml5, DiJavascript, DiNodejs, DiPython, DiReact, DiRedis, DiZend,/*DiCss3Full,DiNodejsSmall,DiDjango,*/} from 'react-icons/di';
-/*import {AiOutlineHtml5} from 'react-icons/ai';
-import {IoLogoJavascript,} from 'react-icons/io';
-import {TbBrandReactNative,TbBrandNextjs,} from 'react-tb';
-import { SiRedis,SiTailwindcss,} from 'react-icons/si';*/
+import { DiCss3, DiFirebase, DiGit, DiHtml5, DiJavascript, DiNodejs, DiPython, DiReact,DiMongodb,DiBootstrap} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
-import { cplusplus } from '@icons-pack/react-simple-icons';
+
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -17,17 +13,7 @@ const Technologies = () =>  (
       From Back-end To Design
     </SectionText>
     <List>
-      <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>React JS</ListTitle>
-          <ListParagraph>
-          ✮✮✮✮⛤
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+      
       <ListItem>
         <picture>
           <DiFirebase size="3rem" />
@@ -35,7 +21,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>C++</ListTitle>
           <ListParagraph>
-          ✮✮✮✮✮
+          -.-.-.-.-.-.-.-.-
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -46,7 +32,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>HTML5</ListTitle>
           <ListParagraph>
-          ✮✮✮✮✮
+          -.-.-.-.-.-.-.-.-
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -57,7 +43,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>CSS3</ListTitle>
           <ListParagraph>
-          ✮✮✮⛤⛤
+          -.-.-.-.-.-.-.-.-
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -68,7 +54,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>JavaScript</ListTitle>
           <ListParagraph>
-          ✮✮✮✮✮
+          -.-.-.-.-.-.-.-.-
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -77,20 +63,31 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>React Native</ListTitle>
+          <ListTitle>React JS</ListTitle>
           <ListParagraph>
-          ✮✮✮✮⛤
+          -.-.-.-.-.-.-.-.-
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiRedis size="3rem" />
+          <DiGit size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Redis</ListTitle>
+          <ListTitle>Git</ListTitle>
           <ListParagraph>
-          ✮✮✮⛤⛤
+          -.-.-.-.-.-.-.-.-
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiMongodb size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>MongoDB</ListTitle>
+          <ListParagraph>
+          -.-.-.-.-.-.-.-.-
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -102,7 +99,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>NodeJS</ListTitle>
           <ListParagraph>
-          ✮✮⛤⛤⛤
+          -.-.-.-.-.-.-.-.-
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -113,11 +110,22 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Python</ListTitle>
           <ListParagraph>
-          ✮✮⛤⛤⛤
+          -.-.-.-.-.-.-.-.-
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
+    <ListItem>
+        <picture>
+          <DiBootstrap size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Bootstrap</ListTitle>
+          <ListParagraph>
+          -.-.-.-.-.-.-.-.-
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
 
     <SectionDivider colorAlt />
   </Section>

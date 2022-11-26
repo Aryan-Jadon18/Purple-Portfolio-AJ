@@ -9,13 +9,13 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Myself <br />
-          Aryan S. JADON
+          Hi there, <br />
+          I'm Aryan S. JADON
         </SectionTitle>
         <SectionText>
-        I'm a passionate programmer and also a 3rd year student at <span style={{ color: '#f5f5f5' }}> SRM University</span>. I have a passion for learning new technologies and also a passion for building things. I am mainly skilled in <span style={{ color: '#f5f5f5' }}>C++</span>, <span style={{ color: '#f5f5f5' }}>JavaScript</span>, <span style={{ color: '#f5f5f5' }}>ReactJS</span>, <span style={{ color: '#f5f5f5' }}>React Native</span>Django and <span style={{ color: '#f5f5f5' }}>HTML</span> technologies.
+        <span style={{ color: '#f5f5f5' }}>I'm a passionate programmer and also a 3rd year student at <b>SRM University</b>. I have a passion for learning new technologies and also a passion for building things. <br/>I am open to any kind of collaboration on interesting projects... </span>
         </SectionText>
-        <Button onClick={props.handleClick}>My Resume</Button>
+        <Button onClick={()=>window.location='https://drive.google.com/drive/folders/1v9cFWPIvj57RTij4sFiRJeXYb9ZID5rj?usp=share_link'}>My Resume</Button>
       </LeftSection>
     </Section>
   </>

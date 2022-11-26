@@ -1,5 +1,5 @@
 export const projects = [
-  {
+  /**{
     title: 'MERN Memories',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
       image: '/images/1.png',
@@ -16,23 +16,23 @@ export const projects = [
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
-  },
+  },**/
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: 'WebRTC Video Chat App',
+    description: "In this project, I learned to use PC components like camera with code. For more details please visit the repository.",
       image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['JavaScript: 73.4%', 'HTML: 18.9%', 'CSS: 7.7%'],
+    source: 'https://github.com/Aryan-Jadon18/Web-RTC-Video-Chat',
+    visit: 'https://github.com/Aryan-Jadon18/Web-RTC-Video-Chat',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Whatsapp Chat automation',
+    description: "This project was made for the purpose of learning automation with python. DO visit the repository for futher details..",
+    image: '/images/wautomation.jpeg',
+    tags: ['Python: 100%'],
+    source: 'https://github.com/Aryan-Jadon18/chat-automation',
+    visit: 'https://github.com/Aryan-Jadon18/chat-automation',
     id: 3,
   },
 ];
@@ -40,5 +40,5 @@ export const projects = [
 export const TimeLineData = [
   { year: 2020, text: 'Started with basic python projects and basic C', },
   { year: 2021, text: 'Shared more projects and crossed 1000 followers on LinkedIn ', },
-  { year: 2022, text: 'Started solving Leetcode', },
+  { year: 2022, text: 'Started solving DSA questions and hackathons.', },
 ];
